@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="web前端个人简历,web前端,韩鸣简历,summer,前端个人博客,前端工程师">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>管理员页面</title>
+		<link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/base.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/admin.css" />
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<script src="../scripts/jquery-3.3.1.min.js"></script>
+		<script src="../scripts/bootstrap.min.js"></script>
+		<script src="../scripts/admin.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--admin-->
+		<div class="adminWrap">
+			<!--右侧上面的个人信息-->
+			<nav class="navbar navbar-default navbar-cls-top" role="navigation" style="margin-bottom: 0">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                <a class="navbar-brand pull-left" href="index.html">Dream it possible</a>
+	            </div>
+	
+	            <div class="header-right">
+	            	<ul>
+	            		<li>
+	            			<span class="m-r-sm text-muted welcome-message">Welcome 出去耍撒.</span>
+	            		</li>
+	            		<li class="dropdown open">
+	            			<a href="#" class="btn btn-info adminMessage " title="New Message" ><b>30 </b><i class="fa fa-envelope-o fa-2x"></i></a>	            			
+	            			<ul class="dropdownMenu dropdownMessages">
+		                        <li>
+		                            <div class="dropdownmessagesBox">
+		                                <a href="profile.html" class="pull-left">
+		                                    <img alt="image" class="img-circle" src="../images/images/music.png">
+		                                </a>
+		                                <div class="media-body">
+		                                    <small class="pull-right">46h ago</small>
+		                                    <strong>Mike Loreipsum</strong> started following <strong>Monica Smith</strong>. <br>
+		                                    <small class="text-muted">3 days ago at 7:58 pm - 10.06.2014</small>
+		                                </div>
+		                            </div>
+		                        </li>
+		                        <li class="divider"></li>
+		                        <li>
+		                            <div class="dropdownmessagesBox">
+		                                <a href="profile.html" class="pull-left">
+		                                    <img alt="image" class="img-circle" src="../images/03.jpg">
+		                                </a>
+		                                <div class="media-body ">
+		                                    <small class="pull-right text-navy">5h ago</small>
+		                                    <strong>Chris Johnatan Overtunk</strong> started following <strong>Monica Smith</strong>. <br>
+		                                    <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
+		                                </div>
+		                            </div>
+		                        </li>
+		                        <li class="divider"></li>
+		                        <li>
+		                            <div class="text-center link-block">
+		                                <a href="mailbox.html" >
+		                                    <i class="fa fa-envelope"></i> <strong>more</strong>
+		                                </a>
+		                            </div>
+		                        </li>
+		                    </ul>
+	            		</li>
+	            		<li class="dropdown open">	            			
+	            			<a href="#" class="btn btn-primary adminTask" title="New Task"><b>40 </b></a>
+	            			<ul class="dropdownMenu dropdowTask01">
+		                        <li>
+		                            <div class="dropdownmessagesBox">
+		                                <a href="profile.html" class="pull-left">
+		                                    <img alt="image" class="img-circle" src="../images/images/music.png">
+		                                </a>
+		                                <div class="media-body">
+		                                    <small class="pull-right">46h ago</small>
+		                                    <strong>Mike Loreipsum</strong> started following <strong>Monica Smith</strong>. <br>
+		                                    <small class="text-muted">3 days ago at 7:58 pm - 10.06.2014</small>
+		                                </div>
+		                            </div>
+		                        </li>
+		                        <li class="divider"></li>
+		                        <li>
+		                            <div class="dropdownmessagesBox">
+		                                <a href="profile.html" class="pull-left">
+		                                    <img alt="image" class="img-circle" src="../images/03.jpg">
+		                                </a>
+		                                <div class="media-body ">
+		                                    <small class="pull-right text-navy">5h ago</small>
+		                                    <strong>Chris Johnatan Overtunk</strong> started following <strong>Monica Smith</strong>. <br>
+		                                    <small class="text-muted">Yesterday 1:21 pm - 11.06.2014</small>
+		                                </div>
+		                            </div>
+		                        </li>
+		                        <li class="divider"></li>
+		                        <li>
+		                            <div class="text-center link-block">
+		                                <a href="" >
+		                                    <i class="fa"></i> <strong>more</strong>
+		                                </a>
+		                            </div>
+		                        </li>
+		                    </ul>
+	            		</li>
+	            		<li>	
+	            			<a href="exit.html" class="btn btn-danger adminExit" target="myFrameName" title="Logout"><b>x</b><i class="fa fa-exclamation-circle fa-2x"></i></a>
+	            		</li>
+	            	</ul>
+	            </div>
+	        </nav>
+			<!--左侧的导航栏-->
+			<div class="navbar-default navbar-side">
+				<div class="sidebar-collapse in">
+					<ul class="nav">
+						<li>
+							<!--个人信息-->
+							<div class="user-img-div">
+	                            <img src="../images/images/zhihu.png" class="img-thumbnail">
+	
+	                            <div class="inner-text">
+	                            	名字不知重要
+	                            <br>
+	                                <small>Last Login : 2 Weeks Ago </small>
+	                            </div>
+	                        </div>
+						</li>
+						<!--欢迎页-->
+						<li>
+							<a href="welcome.html" target="myFrameName">
+								欢迎页
+							</a>
+						</li>
+						<!--发布博客-->
+						<li>
+							<a href="../Admin/edit.html" target="myFrameName">
+								发布博客
+								<span class="caret pull-right"></span>
+							</a>
+						</li>
+						<!--发布项目-->
+						<li>
+							<a href="../Admin/sendObject.html" target="myFrameName">
+								发布项目
+								<span class="caret pull-right"></span>
+							</a>
+						</li>
+						<!--评论-->
+						<li>
+							<a href="../Admin/comment.html" target="myFrameName">
+								回复消息
+								<!--<span class="caret pull-right"></span>-->
+								<span class="label label-default pull-right messageTip">11</span>
+							</a>
+						</li>
+						<!--删除评论-->
+						<li>
+							<a href="../Admin/deleteComment.html" target="myFrameName">
+								删除评论
+							</a>
+						</li>
+						<!--删除用户-->
+						<li>
+							<a href="../Admin/deleteUser.html" target="myFrameName">
+								删除用户
+							</a>
+						</li>
+						<!--修改用户信息-->
+						<li>
+							<a href="javascript:;" class="" target="">
+								修改信息
+								<span class="caret pull-right"></span>
+							</a>
+							<ul class="nav-sec-toggle">
+								<li> 
+									<a href="../Admin/reviseBaseinfor.html" target="myFrameName">
+										基本信息
+									</a>
+								</li>
+								<li>
+									<a href="../Admin/revisePsInfor.html" target="myFrameName">
+										个人简介
+									</a>
+								</li>
+								<li>
+									<a href="../Admin/reviseSkill.html" target="myFrameName">
+										技能展示
+									</a>
+								</li>
+								<li>
+									<a href="../Admin/reviseExperience.html" target="myFrameName">
+										我的经历
+									</a>
+								</li>	
+								<li>
+									<a href="../Admin/reviseAbout.html" target="myFrameName">
+										关于我
+									</a>
+								</li>	
+								<li>
+									<a href="../Admin/reviseSocial.html" target="myFrameName">
+										社交圈
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<!--右侧相对应的内容-->
+			<div class="page-wrapper gray-bg clear">
+				<div class="page-inner">
+			        <!--其他页面框架-->
+			        <iframe id="pageWellcome" name="myFrameName" src="welcome.html" width="100%" height="100%" frameborder="0" scrolling="yes" marginheight="0"	></iframe>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

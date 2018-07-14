@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="web前端个人简历,web前端,韩鸣简历,summer,前端个人博客,前端工程师">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>修改关于我</title>
+		<link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/base.css" />
+		<link rel="stylesheet" type="text/css" href="../scripts/page.css" />
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<script src="../scripts/jquery-3.3.1.min.js"></script>
+		<script src="../scripts/bootstrap.min.js"></script>
+		<script src="../scripts/adminpage.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--欢迎页面-->
+		<div class="welcomewrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 text-center">
+						<!--右侧下面部分-->
+						<!--页头-->
+						<div class="page-header">
+							<h1>修改 <small>技能</small></h1>
+						</div>
+						<!--发布项目到index.html列表-->
+						<div class="sendObject col-lg-8 col-md-8 col-sm-12 col-xs-12 center-block">
+							<!--添加技能-->
+							<form class="form-horizontal top-form-skill">
+								<div class="form-group ">
+								    <label for="inputEmail3" class="col-sm-2 control-label">添加技能</label>
+								    <div class="col-sm-10">
+								      <input type="text" class="form-control" id="addKill" placeholder="">
+								    </div>
+								</div>
+								<!--熟练度-->
+								  <div class="form-group">
+								    <label for="" class="col-sm-2 control-label">技能熟练度</label>
+										<!--<div class="btn-group">-->
+										  	<!--<select name="" class="btn btn-danger addKillCont">
+										  		<option value="">20%</option>
+										  	</select>-->
+								  	<div class="col-sm-10">
+						     	 		<input type="text" class="form-control" id="addKill" placeholder="请输入100以内的数字（百分制），例如：20">
+						  	 		</div>
+									    <!--</div>-->
+								  </div>
+								  <!--展示颜色-->
+								  <div class="form-group">
+								    <label for="inputPassword3" class="col-sm-2 control-label">展示颜色</label>
+								    <div class="col-sm-10">
+								      <!--<input type="text" class="form-control" id="inputPassword3" placeholder="该技能简介">-->
+								      	<input type="color" class="pull-left" name="color" id="color" onchange="changeColor()">  <!--  //选择颜色的标签，type="color"-->
+								      	<!--<textarea name="" rows="" cols="" placeholder="请输入少于100个字！" ></textarea>-->
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <label for="inputPassword3" class="col-sm-2 control-label">介绍技能</label>
+								    <div class="col-sm-10">
+								      <!--<input type="text" class="form-control" id="inputPassword3" placeholder="该技能简介">-->
+								      	<textarea name="" rows="" cols="" placeholder="请输入少于100个字！" ></textarea>
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <div class="col-sm-offset-2 col-sm-10">
+								      <div class="checkbox pull-left">
+								        <label>
+								          <input type="checkbox" >保存
+								        </label>
+								      </div>
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <div class="col-sm-offset-2 col-sm-10">
+								      <button type="button" class="btn btn-default addKillBtn pull-left" id="addKillBtn" data-toggle="modal" data-target="#myModal">保存技能</button>
+										<!-- Modal -->
+										<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+										  <div class="modal-dialog" role="document">
+										    <div class="modal-content">
+										      <div class="modal-header">
+										        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										        <h4 class="modal-title" id="myModalLabel">提示</h4>
+										      </div>
+										      <div class="modal-body">
+										      	<h3>已添加至技能选项栏</h3>
+										      </div>
+										    </div>
+										  </div>
+										</div>
+							    	</div>
+								</div>
+							</form>
+							<!--删除技能-->
+							<form class="form-horizontal buttom-form-skill">
+								 <div class="form-group">
+								    <label for="" class="col-sm-2 control-label pull-left">删除技能</label>
+								    <div class="col-sm-10">
+										<div class="btn-group pull-left">
+										  	<select name="" class="btn btn-danger addKillCont ">
+										  		<option value="">html+css</option>
+										  	</select>
+									    </div>
+									  </div>
+								 </div>
+								 <div class="form-group">
+								    <div class="col-sm-offset-2 col-sm-10">
+								      <button type="submit" class="btn btn-default pull-left">确认删除</button>
+								    </div>
+								  </div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

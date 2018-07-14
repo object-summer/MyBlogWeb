@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* Base Reset */
+*{margin: 0;padding: 0;}
+body,html {font-size: 14px;}
+body,ul,ol,li,img{margin:0;padding:0;list-style:none;list-style-type: none;color: #000}
+a{text-decoration: none;color: #000}
+i,em,strong,th{font-style: normal;font-weight: normal;}
+body,p {   Microsoft YaHei, Helvetica, STHeiti STXihei, Microsoft JhengHei, Tohoma, Arial; }
+img {border: 0px;vertical-align:middle;-ms-interpolation-mode: bicubic;}
+input,select,option,textarea{outline: none;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    /*margin: 0;*/
+}
+.clear { width:100%;overflow:hidden; clear:both; display:block; _display:inline;}
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{*zoom:1;/*IE/7/6*/}
+.left {float: left;}
+.right {float: right;}
+.yahei {font: "微软雅黑";}
+.none{display: none;}
+.block{display: block;}
+.w1200{width: 1200px;}
+.w1140{width: 1140px;}
+.w1000{width: 1000;}
+/*- scrollbar -*/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #999;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:vertical:hover{
+    background-color: #666;
+}
+::-webkit-scrollbar-thumb:vertical:active{
+    background-color: #333;
+}
+::-webkit-scrollbar-button{
+    display: none;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}

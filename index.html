@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="web前端个人简历,web前端,韩鸣简历,summer,前端个人博客,前端工程师">
+		<meta name="description" content="韩鸣WEB前端工程师的个人简历MyBlog">
+		<meta name="author" content="韩鸣,summer">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>MyBlog--Web前端工程师简历</title>
+		<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles/base.css" />
+		<link rel="stylesheet" type="text/css" href="styles/main.css" />
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+		<script src="scripts/jquery-3.3.1.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+		<script src="scripts/mian.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<div class="HM-container" id="HM-wrap">
+			<div class="HM-main" id="HM-mian">
+				<!--section01 ,top-->
+				<div class="section HM-top clearfix">
+
+					<div class="main-buttom">
+						<!--音乐图标+播放-->
+						<div class="music">
+							<img class="music-pic img-responsive" alt="Responsive image" src="images/images/music.png" />
+							<audio id="myAudio" autoplay="" loop="" hidden="true" state='1'>
+								<source src="media/CrossMounts.mp3" type="audio/mpeg">
+								<source src="media/CrossMounts.ogg" type="audio/ogg"> Your browser does not support the audio element.
+							</audio>
+							<div class="music-toggle">
+								<div class="music-mask"></div>
+								<span class="music-start"></span>
+								<span class="music-end"></span>
+							</div>
+						</div>
+						<!--右侧分享-->
+						<div class="share">
+							<img class="share-pic img-responsive clearfix" alt="Responsive image" src="images/images/share.png" />
+							<!--分享至各大社交平台，分享网址和介绍内容-->
+							<div class="share-content">
+								<h4 class="share-text text-center">分享一下！</h4>
+								<ul>
+									<!--微博-->
+									<li>
+										<a href="">
+											<img src="images/shejiao/weibo.png" alt="" />
+										</a>
+										<!--是何平台提示-->
+										<div class="share-tip">
+											<span>微博</span>
+										</div>
+									</li>
+									<!--QQ-->
+									<li>
+										<a href="">
+											<img src="images/shejiao/qq.png" alt="" />
+										</a>
+										<!--是何平台提示-->
+										<div class="share-tip">
+											<span>腾讯</span>
+										</div>
+									</li>
+									<!--csdn-->
+									<li>
+										<a href="">
+											<img src="images/shejiao/csdn.png" alt="" />
+										</a>
+										<!--是何平台提示-->
+										<div class="share-tip">
+											<span>csdn</span>
+										</div>
+									</li>
+									<!--zhihu-->
+									<li>
+										<a href="">
+											<img src="images/shejiao/zhihu.png" alt="" />
+										</a>
+										<!--是何平台提示-->
+										<div class="share-tip">
+											<span>知乎</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="backTop">
+							<div class="ibox">
+								<i class="glyphicon glyphicon-menu-up"></i>
+								<i class="glyphicon glyphicon-option-vertical"></i>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="text">
+						<!--上，两个头像-->
+						<div class="user-pic">
+							<!--左侧-->
+							<a href="" class="user-pics user-pics-left "><img class="active" src="images/images/me.JPG" /></a>
+							<!--右侧-->
+							<a href="" class="user-pics user-pics-right "><img class="active" src="images/images/her.JPG" /></a>
+							<!--兼容的头像-->
+							<a href="" class="user-pics user-pics-jianrong"><img class="active" src="images/images/her.JPG" /></a>
+						</div>
+						<!--下，欢迎语、短介-->
+						<div class="user-infos">
+							<h1 class="">hello!prefer day.</h1>
+							<h4 class="">一只文艺の骚年</h4>
+						</div>
+						<!--nav总导航-->
+						<div class="main-nav">
+							<ul>
+								<li class="">
+									<a href="blog.html" data-toggle="tooltip" title="My博客"></a>
+								</li>
+								<li class="active">
+									<a href="index.html">
+										<h4 class="label label-default">
+											<i class="triangle"></i>
+											简历
+										</h4>
+									</a>
+								</li>
+								<li>
+									<a href="miss.html" data-toggle="tooltip" title="在这里我们相见"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--main-->
+				<div class="wrap navwrap" id="mianNav">
+					<!--section02，nav分页面导航栏-->
+					<div class="vice-nav inner">
+						<!--左侧博客-->
+						<div class="mian-blog-nav">
+							<a href="" class="nav-btn-bolg left">
+								<span>summerの的博客</span>
+							</a>
+							<a class="toggle-nav-btn right">
+								<i class="glyphicon glyphicon-option-horizontal"></i>
+							</a>
+						</div>
+						<!--右侧nav-->
+						<div class="info-nav right">
+							<ul>
+								<li class="first-li-index">首页</li>
+								<li class="">个人介绍</li>
+								<li class="">技能掌握</li>
+								<li class="">项目展示</li>
+								<li class="">教育经历</li>
+								<li class="">关于我</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--section03,个人介绍-->
+				<div class="section mian-info">
+					<div class="title text-center">
+						<h2>介绍@认识自己</h2>
+					</div>
+					<!--圆的头像-->
+					<div class="info-pic text-center">
+						<a href="javascript:void(0);" class="user-pics"><img class="active" src="images/images/me.JPG" /></a>
+					</div>
+					<div class="infors text-center fade fadesin">
+						<div class="info-top">
+							<h2 class="lead">韩鸣</h2>
+							<h3>一个文艺的前端工程师</h3>
+							<small>（安徽省巢湖学院信息工程学院（计算机学院）电子商务专业。)</small>
+						</div>
+						<div class="info-cont">
+
+							<h4 class="info-word-break">
+								<i>对！我，一个文艺骚男@韩鸣。又名：前端工程狮.</i>
+								大学期间，因为喜欢前端且专业课即是前端方面，随后在校企合作的移动互联创新协同实验室学习前端，已有一年半之久。正面临大四实习阶段，希望不负自己的能力，期望。</h4>
+							<h4 class="project-text">主修课程：Html、Css、Javascript、Mysqler、Jsp、管理学、经济学</h4>
+							<h4 class="project-text">自学课程：Jquery、Bootstrap、Vue.js、node.js、Php</h4>
+							<h4 class="project-text-last">学习的路还很长，志同道合的朋友可以联系我，一起进步。</h4>
+						</div>
+					</div>
+				</div>
+				<!--section04,技能掌握-->
+				<div class="section main-skill">
+					<div class="title text-center">
+						<h2>技能掌握</h2>
+					</div>
+					<!--技能掌握-->
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="skill-box" id="skillBox">
+									<ul>
+
+										<!--<li class="skill-js">
+											<h4>javascript</h4>
+											<p>2熟悉Javascript、css3和html5，且能熟练运用JQuery框架实现网页常用特效，掌握面向对象编程思想；</p>
+										</li>
+										<li class="skill-css3">
+											<h4>css3+html5</h4>
+											<p>3熟悉Javascript、css3和html5，且能熟练运用JQuery框架实现网页常用特效，掌握面向对象编程思想；</p>
+										</li>
+										<li class="skill-jq">
+											<h4>jquery+bootstrap等</h4>
+											<p>4熟悉Javascript、css3和html5，且能熟练运用JQuery框架实现网页常用特效，掌握面向对象编程思想；</p>
+										</li>
+										<li class="skil-vue">
+											<h4>vue.js+ES6+webpack</h4>
+											<p>熟5悉Javascript、css3和html5，且能熟练运用JQuery框架实现网页常用特效，掌握面向对象编程思想；</p>
+										</li>
+										<li class="skill-node">
+											<h4>node.js</h4>
+											<p>6熟悉Javascript、css3和html5，且能熟练运用JQuery框架实现网页常用特效，掌握面向对象编程思想；</p>
+										</li>
+										<li class="skill-learn">
+											<h4>自学能力</h4>
+											<p>7具备抗压能力、且有一定自学能力， 能够熟练阅读使用中文API， 英文API可以大概看懂并运用；</p>
+										</li>-->
+										<!--<li class="skill-html" style="background-color: red;">
+											<h4>html+css</h4>
+											<p class="first-skill-intro">1精通DIV+CSS布局的HTML代码编写， 熟练手写符合W3C标准的代码， 能够根据交互原型和UI设计图完整制作出网页；</p>
+										</li>-->
+									</ul>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<!--section05,项目展示-->
+				<div class="section main-project">
+					<div class="title text-center">
+						<h2>项目@缩写着蜗牛的快乐</h2>
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="exLists">
+								<ul>
+									<!--第一个项目-->
+									<li>
+										<div class="exList exList01">
+											<div class="exBg">
+												<span class="exListMask"></span>
+												<!--点击查看-->
+												<div class="exInfor">
+													<!--项目名称-->
+													<h3>知识分享型美食社交</h3>
+													<a href="">
+														<span class="exZan"></span>
+													</a>
+												</div>
+											</div>
+											<img class="exImg img-responsive" alt="Responsive image" src="images/images/MyBlog_13.png" alt="" />
+										</div>
+									</li>
+									<!--第一个项目-->
+									<li>
+										<div class="exList exList01">
+											<div class="exBg">
+												<span class="exListMask"></span>
+												<!--点击查看-->
+												<div class="exInfor">
+													<!--项目名称-->
+													<h3>知识分享型美食社交</h3>
+													<a href="">
+														<span class="exZan"></span>
+													</a>
+												</div>
+											</div>
+											<img class="exImg img-responsive" alt="Responsive image" src="images/images/MyBlog_13.png" alt="" />
+										</div>
+									</li>
+									<!--第一个项目-->
+									<li>
+										<div class="exList exList01">
+											<div class="exBg">
+												<span class="exListMask"></span>
+												<!--点击查看-->
+												<div class="exInfor">
+													<!--项目名称-->
+													<h3>知识分享型美食社交</h3>
+													<a href="">
+														<span class="exZan"></span>
+													</a>
+												</div>
+											</div>
+											<img class="exImg img-responsive" alt="Responsive image" src="images/images/MyBlog_13.png" alt="" />
+										</div>
+									</li>
+									<!--第一个项目-->
+									<li>
+										<div class="exList exList01">
+											<div class="exBg">
+												<span class="exListMask"></span>
+												<!--点击查看-->
+												<div class="exInfor">
+													<!--项目名称-->
+													<h3>知识分享型美食社交</h3>
+													<a href="">
+														<span class="exZan"></span>
+													</a>
+												</div>
+											</div>
+											<img class="exImg img-responsive" alt="Responsive image" src="images/images/MyBlog_13.png" alt="" />
+										</div>
+									</li>
+									<!--第一个项目-->
+									<li>
+										<div class="exList exList01">
+											<div class="exBg">
+												<span class="exListMask"></span>
+												<!--点击查看-->
+												<div class="exInfor">
+													<!--项目名称-->
+													<h3>知识分享型美食社交</h3>
+													<a href="">
+														<span class="exZan"></span>
+													</a>
+												</div>
+											</div>
+											<img class="exImg img-responsive" alt="Responsive image" src="images/images/MyBlog_13.png" alt="" />
+										</div>
+									</li>
+									<!--第一个项目-->
+									<li>
+										<div class="exList exList01">
+											<div class="exBg">
+												<span class="exListMask"></span>
+												<!--点击查看-->
+												<div class="exInfor">
+													<!--项目名称-->
+													<h3>知识分享型美食社交</h3>
+													<a href="">
+														<span class="exZan"></span>
+													</a>
+												</div>
+											</div>
+											<img class="exImg img-responsive" alt="Responsive image" src="images/images/MyBlog_13.png" alt="" />
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--section06,教育经历-->
+				<div class="section mian-experience">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<div class="title text-center">
+									<h2>经历@时间的卷轴</h2>
+								</div>
+							</div>
+							<div class="experience-wrap">
+								<!--经历01-->
+								<div class="experiences slider">
+									<ul class="slider-main clearfix">
+										
+									</ul>
+									<div class="slider-extra clearfix">
+										<ul class="slider-nav">
+											<li class="slider-item">1</li>
+											<li class="slider-item">2</li>
+											<!--<li class="slider-item">3</li>
+											<li class="slider-item">4</li>-->
+										</ul>
+										<div class="slider-page">
+											<a class="slider-pre" href="javascript:;;"><</a>
+											<a class="slider-next" href="javascript:;;">></a>
+										</div>
+									</div>
+									<!--<div class="experience-btn">
+										<a class="experience-btn-l" href="javascript:;"><img src="images/icon/club-icon-l.png"/></a>
+										<a class="experience-btn-r" href="javascript:;"><img src="images/icon/club-icon-r.png"/></a>
+									</div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript">
+					
+					 	$.ajax({
+					 		/*json格式*/
+//					 		url:'./json/experience.json',	
+					 		type:"post",
+					 		dataType:"json",
+					 		success:function(data){
+					 			var data = JSON.parse(data)
+					 			/*json格式*/
+//					 			var exper  = data.Experience;
+
+								for(var i=0;i<exper.length;i++){
+									var place = exper[i].place;
+									var place1 = exper[i+1].place;
+									var endtime = exper[i].endtime;
+									var endtime1 = exper[i+1].endtime
+									var starttime = exper[i].starttime;
+									var starttime1 = exper[i+1].starttime
+									var description = exper[i].description;
+									var description1 = exper[i+1].description;
+									var job = exper[i].job;
+									var job1 =exper[i+1].job;
+									
+					 					str="<li  class=\"slider-panel\">"+
+"											<!--限定盒子的宽度760px-->"+
+"											<div class=\"experience text-center clearfix\">"+
+"												<div class=\"single ex01\">"+
+"													<!--左侧的时间圆圈-->"+
+"													<div class=\"ex-left\">"+
+"														<!--时间，地点-->"+
+"														<div class=\"ex-bgMask\"></div>"+
+"														<div class=\"ex-bg\">"+
+"															<!--开始时间-->"+
+"															<div class=\"time\">"+
+"																<p class=\"start\">"+starttime+"</p>"+
+"																<p class=\"end\">"+endtime+"</p>"+
+"																<!--<p class=\"start\">2016 <i> -01-01</i></p>"+
+"																<p class=\"end\">2017 <i>-01-01</i> </p>-->"+
+"															</div>"+
+"														</div>"+
+"													</div>"+
+"													<!--右侧相对应的经历-->"+
+"													<div class=\"ex-right text-center\">"+
+"														<div class=\"work-info\">"+
+"															<h3>"+place+"</h3>"+
+"															<p class=\"fu-title\">"+job+"</p>"+
+"															<p>"+description+"</p>"+
+"															<!--<h3>巢湖学院</h3>"+
+"															<p class=\"fu-title\">技术部/前端工程师负责官网页面制作。</p>"+
+"															<p>利用JS、CSS3书写前端功能，让页面更充实丰富负责官网页面制作。</p>"+
+"															<p>并将代码上传到代码托管平台上</p>-->"+
+"														</div>"+
+"													</div>"+
+"												</div>"+
+"											</div>"+
+"											<div class=\"experience text-center clearfix\">"+
+"												<div class=\"single ex01\">"+
+"													<!--左侧的时间圆圈-->"+
+"													<div class=\"ex-left\">"+
+"														<!--时间，地点-->"+
+"														<div class=\"ex-bgMask\"></div>"+
+"														<div class=\"ex-bg\">"+
+"															<!--开始时间-->"+
+"															<div class=\"time\">"+
+"																<p class=\"start\">"+starttime1+"</p>"+
+"																<p class=\"end\">"+endtime1+"</p>"+
+"															</div>"+
+"														</div>"+
+"													</div>"+
+"													<!--右侧相对应的经历-->"+
+"													<div class=\"ex-right text-center\">"+
+"														<div class=\"work-info\">"+
+"															<h3>"+place1+"</h3>"+
+"															<p class=\"fu-title\">"+job1+"</p>"+
+"															<p>"+description1+"</p>"+
+"														</div>"+
+"													</div>"+
+"												</div>"+
+"											</div>"+
+"										</li>";
+									$('ul.slider-main').append(str)
+									}}})
+
+					 	
+				</script>
+				<!--section07,关于我-->
+				<div class="section mian-about">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<div class="title text-center">
+									<h2>我 @ Me</h2>
+								</div>
+							</div>
+							<div class="about-wrap">
+								<div class="border-box-over center-block">
+									<!--短的边框转-->
+									<div class="box-border text-center yahei">
+										<div class="title">
+											<h2>灵感    代码    梦想    未来</h2>
+										</div>
+										<div class="content">
+											<p>注重效率，偏爱敏捷开发</p>
+											<p>喜欢尝试，期待新鲜事物</p>
+											<p>前端即兴趣，兴趣即未来</p>
+											<p>行路有良友，便是捷径</p>
+											<h3>带上我吧，一起看到更大的世界</h3>
+										</div>
+										
+										<div class="box-border-mask">
+											<!--分享-->
+										<div class="about-share">
+											<ul>
+												<!--社交品台，github-->
+												<li><a href="index.html"><span><img src="images/shejiao/weibo.png" alt="" /></span></a></li>
+												<!--社交品台，知乎-->
+												<li><span><img src="images/shejiao/github.png" alt="" /></span></li>
+												<li><span><img src="images/shejiao/csdn.png" alt="" /></span></li>
+												<li><span><img src="images/shejiao/weibo.png" alt="" /></span></li>
+												<li><span><img src="images/shejiao/zhihu.png" alt="" /></span></li>
+												<li><span><img src="images/shejiao/xinlang.png" alt="" /></span></li>
+											</ul>
+										</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
