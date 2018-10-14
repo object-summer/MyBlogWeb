@@ -394,9 +394,10 @@
 					
 					 	$.ajax({
 					 		/*json格式*/
-					 		url:'/json/experience.json',	
-					 		type:"get",
+					 		url:'json/experience.json',	
+					 		type:"post",
 					 		dataType:"json",
+							contentType: 'application/json;charset=utf-8',
 					 		success:function(data){
 					 			var data = JSON.parse(data)
 					 			/*json格式*/
