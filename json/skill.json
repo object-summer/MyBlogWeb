@@ -1,7 +1,5 @@
 {
 	"skill" :[
-		{"name":"html","percent":"20","bgcolor":"#424242cc","comment":"MyBlog--Web前端工程师简历"},
-		{"name":"css","percent":"40","bgcolor":"red","comment":"MyBlog--Web前端工程师简历"},
 		{"name":"javascript","percent":"60","bgcolor":"#424242cc","comment":"MyBlog--Web前端工程师简历"},
 		{"name":"jquery","percent":"80","bgcolor":"#424242cc","comment":"MyBlog--Web前端工程师简历"}
 	]
