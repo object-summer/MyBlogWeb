@@ -235,6 +235,28 @@
 								</div>
 							</div>
 						</div>
+						<script type="text/javascript">
+						$.ajax({
+							type:"get",
+							url:"./json/skill.json",
+							dataType:"json",
+							success:function(data){
+								var skill  = data.skill;
+								for (var i = 0;i<skill.length;i++) {
+									var name = skill[i].name;
+									var percent = skill[i].percent;
+									var bgcolor = skill[i].bgcolor;
+									var comment = skill[i].comment;
+									var str;
+									str += "<li class='skill-css3'>"
+									str+=		"<h4>"+name+"</h4>"
+									str+=		"<p>"+comment+"</p>"
+									str+=	"</li>"
+									$('#skillBox ul').append(str);
+								}
+							}
+						});
+					</script>
 					</div>
 
 				</div>
